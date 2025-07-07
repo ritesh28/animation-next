@@ -1,7 +1,8 @@
 export default function HomePage() {
   return (
     <div>
-      <p className="text-3xl font-bold underline">Home Page</p>
+      <h1>Framer Motion Examples</h1>
+      <p>Select examples from the sidebar to get started!</p>
     </div>
   );
 }
