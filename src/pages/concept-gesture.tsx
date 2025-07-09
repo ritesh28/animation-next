@@ -1,5 +1,6 @@
+import { Code } from "@/components/code";
 import { motion } from "motion/react";
-export default function BasicButtonPage() {
+export default function Page() {
   return (
     <div className="flex flex-col justify-center gap-4">
       <motion.button
@@ -10,8 +11,12 @@ export default function BasicButtonPage() {
       <div className="text-muted-foreground">
         <p>This is a basic button with:</p>
         <ul className="my-3 ml-6 list-disc [&>li]:mt-2">
-          <li>Hover effect</li>
-          <li>Click</li>
+          <li>
+            Hover effect: <Code codeText="scale=1.1" />
+          </li>
+          <li>
+            Click: <Code codeText="scale=0.9" />
+          </li>
         </ul>
       </div>
     </div>

@@ -22,16 +22,12 @@ export const sidebarItems: SidebarItem[] = [
     icon: Lightbulb,
     children: [
       {
-        title: "Basic",
-        url: "/basic-button",
+        title: "Animate prop",
+        url: "/concept-animate",
       },
       {
-        title: "Basic Card",
-        url: "/basic-card",
-      },
-      {
-        title: "Basic Input",
-        url: "/basic-input",
+        title: "Gesture",
+        url: "/concept-gesture",
       },
     ],
   },
