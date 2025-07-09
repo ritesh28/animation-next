@@ -1,12 +1,18 @@
 import { Github, Layers, Lightbulb, Linkedin, MapPinHouse } from "lucide-react";
 
+interface LucidIconProps {
+  color?: string;
+  size?: number | string;
+  strokeWidth?: number | string;
+}
+
 interface SidebarChildItem {
   title: string;
   url: string;
 }
 interface SidebarItem {
   title: string;
-  icon: React.ComponentType;
+  icon: React.ComponentType<LucidIconProps>;
   children: SidebarChildItem[];
 }
 
@@ -39,7 +45,7 @@ export const sidebarItems: SidebarItem[] = [
 interface NavbarLink {
   title: string;
   url: string;
-  icon: React.ComponentType;
+  icon: React.ComponentType<LucidIconProps>;
 }
 
 export const navbarLinks: NavbarLink[] = [
