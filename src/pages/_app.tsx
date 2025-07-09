@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
             <div className="col-span-full sticky top-0">
               <Navbar />
             </div>
-            <div className="flex">
+            <div className="flex -mr-7">
               <AppSidebar />
               <SidebarTrigger className="sticky top-[3.5rem]" />
             </div>

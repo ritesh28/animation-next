@@ -5,7 +5,7 @@ export default function BasicButtonPage() {
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="w-52 h-52 rounded-xl bg-chart-2 self-center"
+        className="w-52 h-52 rounded-xl bg-chart-2 self-center select-none"
       />
       <div className="text-muted-foreground">
         <p>This is a basic button with:</p>
