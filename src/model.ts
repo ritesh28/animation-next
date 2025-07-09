@@ -1,4 +1,4 @@
-import { Layers, Lightbulb } from "lucide-react";
+import { Github, Layers, Lightbulb, Linkedin, MapPinHouse } from "lucide-react";
 
 interface SidebarChildItem {
   title: string;
@@ -33,5 +33,29 @@ export const sidebarItems: SidebarItem[] = [
     title: "Components",
     icon: Layers,
     children: [],
+  },
+];
+
+interface NavbarLink {
+  title: string;
+  url: string;
+  icon: React.ComponentType;
+}
+
+export const navbarLinks: NavbarLink[] = [
+  {
+    title: "Github Code",
+    url: process.env.NEXT_PUBLIC_GITHUB_CODE_LINK || "#",
+    icon: Github,
+  },
+  {
+    title: "Linkedin",
+    url: process.env.NEXT_PUBLIC_LINKEDIN_LINK || "#",
+    icon: Linkedin,
+  },
+  {
+    title: "Portfolio",
+    url: process.env.NEXT_PUBLIC_PORTFOLIO_LINK || "#",
+    icon: MapPinHouse,
   },
 ];
