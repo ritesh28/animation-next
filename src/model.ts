@@ -61,6 +61,14 @@ export const sidebarItems: SidebarItem[] = [
         title: 'Layout',
         url: '/concept-layout',
       },
+      {
+        title: 'Scroll Triggered',
+        url: '/concept-scroll-triggered',
+      },
+      {
+        title: 'Scroll Linked',
+        url: '/concept-scroll-linked',
+      },
     ],
   },
   {
