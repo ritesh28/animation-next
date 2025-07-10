@@ -17,7 +17,7 @@ export default function Page() {
     setControls(newControls);
     setDirection((prev) => -prev); // Toggle direction
     setIsPlaying(true);
-  }, [direction]);
+  }, [direction, count]);
 
   const handleAnimationPlayState = () => {
     if (controls) {

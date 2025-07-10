@@ -25,7 +25,7 @@ export default function HomePage() {
             Duration and animation flow is controlled using <Code codeText='transition' /> prop.
           </li>
           <li>
-            <Code codeText='MotionValue' /> instance is used under the hood to update visual properties without triggering React's render cycle.
+            <Code codeText='MotionValue' /> instance is used under the hood to update visual properties without triggering React render cycle.
           </li>
           <li>
             Apart from declarative (<Code codeText='<motion.*/>' />) animations, Framer Motion also provide <Code codeText='animate' /> which allows
