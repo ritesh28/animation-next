@@ -11,6 +11,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from '@/components/ui/sidebar';
+import { getComponentPageWithGithubLink } from '@/lib/github-url-query';
 import { sidebarItems } from '@/model';
 import Link from 'next/link';
 
@@ -32,7 +33,7 @@ export function AppSidebar() {
                 {item.children.map((child) => (
                   <SidebarMenuItem key={child.title} onClick={() => isMobile && setOpenMobile(false)}>
                     <SidebarMenuButton asChild>
-                      <Link href={child.url}>
+                      <Link href={getComponentPageWithGithubLink(child.url)}>
                         <span>{child.title}</span>
                       </Link>
                     </SidebarMenuButton>

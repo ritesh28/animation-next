@@ -57,12 +57,21 @@ export const sidebarItems: SidebarItem[] = [
         title: 'Gesture',
         url: '/concept-gesture',
       },
+      {
+        title: 'Layout',
+        url: '/concept-layout',
+      },
     ],
   },
   {
     title: 'Components',
     icon: Layers,
-    children: [],
+    children: [
+      {
+        title: 'Tabs',
+        url: '/component-tabs',
+      },
+    ],
   },
 ];
 

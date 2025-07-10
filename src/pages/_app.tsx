@@ -4,7 +4,6 @@ import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import '@/globals.css';
 import { ThemeProvider } from '@/theme-provider';
 import Head from 'next/head';
-import Link from 'next/link';
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -30,13 +29,13 @@ function MyApp({ Component, pageProps }) {
             <div className='col-span-full justify-self-center mb-4'>
               <p className='text-sm leading-none font-medium'>
                 Build by{' '}
-                <Link href={process.env.NEXT_PUBLIC_PORTFOLIO_LINK || '#'} target='_blank' className='underline hover:text-link-hover-foreground'>
+                <a href={process.env.NEXT_PUBLIC_PORTFOLIO_LINK || '#'} target='_blank' className='underline hover:text-link-hover-foreground'>
                   Ritesh
-                </Link>
+                </a>
                 . Check out my other{' '}
-                <Link href={process.env.NEXT_PUBLIC_GITHUB_REPO_LINK || '#'} target='_blank' className='underline hover:text-link-hover-foreground'>
+                <a href={process.env.NEXT_PUBLIC_GITHUB_REPO_LINK || '#'} target='_blank' className='underline hover:text-link-hover-foreground'>
                   Github Codes
-                </Link>
+                </a>
                 .
               </p>
             </div>

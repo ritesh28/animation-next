@@ -30,11 +30,11 @@ export function Navbar() {
           {navbarLinks.map((link) => (
             <Tooltip key={link.title}>
               <TooltipTrigger asChild>
-                <Link href={link.url} target='_blank'>
+                <a href={link.url} target='_blank'>
                   <Button size='icon' className='text-navbar-foreground bg-navbar hover:bg-navbar-foreground hover:text-navbar'>
                     <link.icon />
                   </Button>
-                </Link>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>{link.title}</p>

@@ -31,8 +31,9 @@ export default function HomePage() {
             Apart from declarative (<Code codeText='<motion.*/>' />) animations, Framer Motion also provide <Code codeText='animate' /> which allows
             to take manual control over animation playback.
           </li>
-          {/* todo */}
-          <li>Layout</li>
+          <li>
+            <Code codeText='layout' /> prop let you animate between 2 layouts with ease.
+          </li>
         </ul>
       </div>
     </div>
