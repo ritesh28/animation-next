@@ -64,8 +64,8 @@ export default function Page() {
           <Code codeText="animate={{ backgroundColor: 'var(--action-bg)' }}" />
         </p>
         <p>
-          <b>Enter Animation</b>: When a motion component is first created,
-          it'll automatically animate to the values in animate if they're
+          <b>Enter Animation</b>: When a motion component is first created, it
+          will automatically animate to the values in animate if they are
           different from those initially rendered, which you can either do via
           CSS or via the <Code codeText="initial" /> prop.
         </p>

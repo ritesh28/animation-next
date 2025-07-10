@@ -32,9 +32,10 @@ export default function Page() {
       </div>
       <div className="text-muted-foreground [&>*]:mb-2">
         <p>
-          In React, when a component is removed, it's usually removed instantly.
-          Motion provides the <Code codeText="AnimatePresence" /> component
-          which keeps elements in the DOM while they perform an exit animation.
+          In React, when a component is removed, it is usually removed
+          instantly. Motion provides the <Code codeText="AnimatePresence" />{" "}
+          component which keeps elements in the DOM while they perform an exit
+          animation.
         </p>
       </div>
     </div>
