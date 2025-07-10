@@ -26,6 +26,22 @@ export const sidebarItems: SidebarItem[] = [
         url: "/concept-animate",
       },
       {
+        title: "Animate SVG",
+        url: "/concept-svg",
+      },
+      {
+        title: "Exit Animation",
+        url: "/concept-exit-animation",
+      },
+      {
+        title: "Keyframe",
+        url: "/concept-keyframe",
+      },
+      {
+        title: "Variant",
+        url: "/concept-variant",
+      },
+      {
         title: "Gesture",
         url: "/concept-gesture",
       },

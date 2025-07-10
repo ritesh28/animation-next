@@ -29,7 +29,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center gap-4">
+    <div className="flex flex-col justify-center gap-4 m-4">
       <div className="flex flex-wrap justify-center gap-4">
         <motion.div
           className="w-52 h-52 rounded-xl select-none"
@@ -55,8 +55,26 @@ export default function Page() {
           </Button>
         </div>
       </div>
-      <div className="text-muted-foreground">
-        Update <Code codeText="animate" /> prop of the motion component
+      <div className="text-muted-foreground [&>*]:mb-2">
+        <p>
+          Update <Code codeText="animate" /> prop of the motion component
+        </p>
+        <p>
+          It works with css variables as well:{" "}
+          <Code codeText="animate={{ backgroundColor: 'var(--action-bg)' }}" />
+        </p>
+        <p>
+          <b>Enter Animation</b>: When a motion component is first created,
+          it'll automatically animate to the values in animate if they're
+          different from those initially rendered, which you can either do via
+          CSS or via the <Code codeText="initial" /> prop.
+        </p>
+        <p>
+          <b>Exit Animation</b>: Check out <Code codeText="AnimatePresence" />{" "}
+          component. This is needed since the react component is removed
+          immediately on unmount. <Code codeText="AnimatePresence" /> makes sure
+          that the exit animation happens before the unmount.
+        </p>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import { Code } from "@/components/code";
 import { motion } from "motion/react";
 export default function Page() {
   return (
-    <div className="flex flex-col justify-center gap-4">
+    <div className="flex flex-col justify-center gap-4 m-4">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
