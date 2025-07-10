@@ -1,21 +1,17 @@
-import { Code } from "@/components/code";
-import { motion } from "motion/react";
+import { Code } from '@/components/code';
+import { motion } from 'motion/react';
 export default function Page() {
   return (
-    <div className="flex flex-col justify-center gap-4 m-4">
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="w-52 h-52 rounded-xl bg-chart-2 self-center select-none"
-      />
-      <div className="text-muted-foreground">
+    <div className='flex flex-col justify-center gap-4 m-4'>
+      <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='w-52 h-52 rounded-xl bg-chart-2 self-center select-none' />
+      <div className='text-muted-foreground'>
         <p>This is a basic button with:</p>
-        <ul className="my-3 ml-6 list-disc [&>li]:mt-2">
+        <ul className='my-3 ml-6 list-disc [&>li]:mt-2'>
           <li>
-            Hover effect: <Code codeText="scale=1.1" />
+            Hover effect: <Code codeText='scale=1.1' />
           </li>
           <li>
-            Click: <Code codeText="scale=0.9" />
+            Click: <Code codeText='scale=0.9' />
           </li>
         </ul>
       </div>
