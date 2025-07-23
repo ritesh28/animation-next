@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/ritesh28/animation-next">
-    <img data-source="github" loading="lazy" alt="Animation Next" src="https://github.com/ritesh28/animation-next/raw/main/public/page_home.png" width="600"/>
+  <a href="https://github.com/ritesh28/animation-next" target="_blank">
+    <img data-source="github" loading="lazy" alt="Animation Next" src="https://github.com/ritesh28/animation-next/raw/main/public/page_home.png" width="750"/>
   </a>
 </p>
 
@@ -9,9 +9,9 @@
 This website showcases the capabilities of the Framer Motion library in React. It features interactive examples and animations that demonstrate key concepts like transitions, gestures, and layout animations.
 
 <h3 align="center">
-  <a href="https://animation-next-lemon.vercel.app/">View Demo</a>
+  <a href="https://animation-next-lemon.vercel.app/" target="_blank">View Demo</a>
   <span> · </span>
-  <a href="https://animation-next-lemon.vercel.app/issues">Report Bug</a>
+  <a href="https://github.com/ritesh28/animation-next/issues" target="_blank">Report Bug</a>
 </h3>
 
 ## Libraries and Tools
